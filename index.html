@@ -56,7 +56,6 @@
   <td style="padding:10px;width:40%;vertical-align:middle">
     <video width="100%" muted autoplay loop playsinline>
       <source src="videos/LSS_Workflow_3d_motion.mp4" type="video/mp4">
-      Your browser does not support the video tag.
     </video>
   </td>
 	
@@ -79,46 +78,28 @@
 </tr>
 
 
-<tr onmouseout="gr3en_stop()" onmouseover="gr3en_start()">
-  <td style="padding:16px;width:20%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='gr3en_image'><video  width=100% height=100% muted autoplay loop>
-      <source src="images/gr3en.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-      </video></div>
-      <img src='images/gr3en.jpg' width="160">
-    </div>
-    <script type="text/javascript">
-      function gr3en_start() {
-        document.getElementById('gr3en_image').style.opacity = "1";
-      }
-
-      function gr3en_stop() {
-        document.getElementById('gr3en_image').style.opacity = "0";
-      }
-      gr3en_stop()
-    </script>
+<tr>
+  <td style="padding:10px;width:40%;vertical-align:middle">
+    <video width="100%" muted autoplay loop playsinline>
+      <source src="videos/FoundationalECGNet-workflow.mp4" type="video/mp4">
+    </video>
   </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="https://gr3en-relight.github.io/">
-      <span class="papertitle">GR3EN: Generative Relighting for 3D Environments</span>
-    </a>
+	
+  <td style="padding:10px;width:80%;vertical-align:middle">
+    <span class="papertitle">
+      <strong>FoundationalECGNet: A Lightweight Foundational Model for ECG-based Multitask Cardiac Analysis</strong>
+    </span>
     <br>
-    <a href="https://xyxingx.github.io/">Xiaoyan Xing</a>,
-    <a href="https://henzler.github.io/">Philipp Henzler</a>,
-    <a href="https://hurjunhwa.github.io/">Junhwa Hur</a>,
-    <a href="https://bragilee.github.io/">Runze Li</a>, <br>
-    <strong>Jonathan T. Barron</strong>,
-    <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>,
-    <a href="https://dorverbin.github.io/">Dor Verbin</a>
+    <a href="https://github.com/sajeeb-ai/">Md Sajeebul Islam Sk</a>,
+	<a href="https://github.com/jobayer/">Md Jobayer</a>,
+    <a href="https://scholar.google.com/citations?user=o7JGMlQAAAAJ&hl=en">Md Mehedi Hasan Shawon</a>,
+    <a href="https://scholar.google.com/citations?user=t4GrJR4AAAAJ&hl=en">Md. Golam Rabiul Alam, Ph.D.</a>
     <br>
-    <em>SIGGRAPH</em>, 2026
-    <br>
-    <a href="https://gr3en-relight.github.io/">project page</a> /
-    <a href="https://arxiv.org/abs/2601.16272">arXiv</a>
-    <p></p>
+    *In review, 2026 /
+    <a href="https://arxiv.org/abs/2509.08961"><em>arXiv</em></a>
+
     <p>
-		Distilling the outputs of a video-to-video relighting diffusion model into a 3D reconstruction enables controllable 3D relighting of room-scale scenes.
+      Propose FoundationalECGNet, a lightweight ECG foundation model that reduces noise, biased prediction, overfitting, poor generalization, and model size by using Morlet–DB4 wavelet denoising, ADASYN class balancing, pretraining CBAM–GAT–TST attention architecture and predicts Normal/Abnormal ECGs and five cardiac diseases from ECG diverse datasets.
     </p>
   </td>
 </tr>
